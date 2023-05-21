@@ -1,0 +1,32 @@
+body{
+    background: rgb(26, 14, 16);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    
+}
+.container{
+background-color: slateblue;
+border-radius: 10px;
+box-shadow: 2px 3px 7px rgb(94, 73, 73);
+width: 650px;
+height: 200px;
+text-align: center;
+
+}
+.container h1 {
+    color: rgb(39, 37, 32);
+    font-size: 25px;
+    font-weight: 700;
+}
+.container .clock{
+    font-size: 50px;
+    display: flex;
+ 
+    justify-content: center;
+}
